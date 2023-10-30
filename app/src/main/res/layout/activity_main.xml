@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/weC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome to the meaning of life class" />
+    <TextView
+        android:id="@+id/myNa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my name is lucky"
+        android:layout_margin="50dp"
+        android:textColor="#002480"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:padding="5dp"/>
+    <ImageView
+        android:id="@+id/imv"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img"
+        android:layout_marginTop="@android:dimen/app_icon_size"/>
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Click here"
+        android:background="#00C7EA"
+        android:textColor="#CEFFFFFF"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/teV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name"
+        android:layout_margin="20dp"
+        android:inputType="text"/>
+
+</LinearLayout>

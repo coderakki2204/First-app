@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My actvity</string>
+    <string name="new_app_name">Poc</string>
+    <string name="mobile_number">Enter Mobile Number</string>
+    <string name="password">Enter password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register_yourself">Register Yourself</string>
+</resources>
