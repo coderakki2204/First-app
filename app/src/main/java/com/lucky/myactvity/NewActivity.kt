@@ -37,7 +37,7 @@ class NewActivity : AppCompatActivity() {
          }else{
              Toast.makeText(
                  this@NewActivity,
-                 "Incorrect Credentials",
+                 "Incorrect Credentials......",
                  Toast.LENGTH_LONG
              ).show()
          }
